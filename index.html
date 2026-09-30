@@ -1,0 +1,3125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta name="description" content="Professional doctor portfolio website featuring medical expertise, certifications, patient testimonials, clinic information and appointment booking."/>
+    <meta name="keywords" content="doctor, physician, medical doctor, healthcare, clinic, appointment, doctor portfolio"/>
+    <meta name="author" content="Dr. Sarah Ahmed" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dr. Sarah Ahmed | Physician" />
+    <meta property="og:description" content="Learn more about Dr. Sarah Ahmed, medical expertise, services, certifications and appointments."/>
+    <meta property="og:type" content="website" />
+
+    <!-- Page Title -->
+    <title>Dr. Sarah Ahmed | Physician</title>
+    <link rel="icon" href="assets/images/woman-working-as-doctor.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+     <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="font-sans text-gray-800 bg-white antialiased">
+
+    <!-- NAVBAR -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center gap-3" href="./index.html">
+                    <span class="brand-content">
+                        <span class="brand-name">Dr. Sarah Yousuf</span>
+                        <span class="brand-role">Physician</span>
+                    </span>
+                </a>
+
+
+                <!-- Mobile Toggle -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <iconify-icon
+                        icon="solar:hamburger-menu-linear"
+                        width="24"
+                        height="24"
+                    ></iconify-icon>
+                </button>
+
+
+                <!-- Navigation -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+
+                    <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    </ul>
+
+
+                    <!-- Appointment Button -->
+                    <div class="d-flex">
+                        <a href="#appointment" class="btn btn-appointment">
+                            <span>Book Appointment</span>
+
+                            <iconify-icon
+                                icon="solar:arrow-right-linear"
+                                width="18"
+                                height="18"
+                            ></iconify-icon>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="hero">
+            <div class="container">
+                <div class="hero-layout">
+
+                    <!-- HERO INTRO -->
+                    <div class="hero-intro">
+
+                        <!-- Availability Badge -->
+                        <div class="hero-badge">
+                            <span class="hero-badge-dot"></span>
+                            Available for Consultation
+                        </div>
+
+                        <!-- Heading -->
+                        <h1 class="hero-title">Dedicated To Your<span>Health &amp; Well-Being</span></h1>
+
+                        <!-- Description -->
+                        <p class="hero-description">Dr. Sarah Ahmed provides personalized, evidence-based medical care focused on accurate diagnosis, preventive healthcare, and long-term well-being.
+                        </p>
+
+                    </div>
+
+
+                    <!-- HERO IMAGE -->
+                    <div class="hero-image-wrapper">
+
+                        <!-- Decorative Background -->
+                        <div class="hero-image-bg"></div>
+
+                        <!-- Main Image -->
+                        <div class="hero-image">
+                            <img
+                                src="assets/images/woman-working-as-doctor.png"
+                                alt="Dr. Sarah Yousuf, physician"
+                            />
+                        </div>
+
+
+                        <!-- Experience Card -->
+                        <div class="hero-floating-card experience-card">
+
+                            <div class="floating-card-icon">
+                                <iconify-icon
+                                    icon="solar:medal-star-linear"
+                                    width="20"
+                                    height="20"
+                                ></iconify-icon>
+                            </div>
+
+                            <div class="floating-card-content">
+                                <strong>10+ Years</strong>
+                                <span>Medical Experience</span>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Availability Card -->
+                        <div class="hero-floating-card availability-card">
+
+                            <div class="floating-card-icon">
+                                <iconify-icon
+                                    icon="solar:calendar-check-linear"
+                                    width="20"
+                                    height="20"
+                                ></iconify-icon>
+                            </div>
+
+                            <div class="floating-card-content">
+                                <strong>Mon - Sat</strong>
+                                <span>5:00 PM - 9:00 PM</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- HERO ACTIONS -->
+                    <div class="hero-actions">
+
+                        <a
+                            href="#appointment"
+                            class="hero-btn hero-btn-primary"
+                        >
+                            <span>Book an Appointment</span>
+
+                            <iconify-icon
+                                icon="solar:arrow-right-linear"
+                                width="18"
+                                height="18"
+                            ></iconify-icon>
+                        </a>
+
+                        <a
+                            href="#about"
+                            class="hero-btn hero-btn-secondary"
+                        >
+                            View Profile
+                        </a>
+
+                    </div>
+
+
+                    <!-- HERO STATS -->
+                    <div class="hero-stats">
+
+                        <!-- Stat -->
+                        <div class="hero-stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+
+                        <!-- Divider -->
+                        <span class="stat-divider"></span>
+
+                        <!-- Stat -->
+                        <div class="hero-stat">
+                            <span class="stat-number">5K+</span>
+                            <span class="stat-label">Patients Treated</span>
+                        </div>
+
+                        <!-- Divider -->
+                        <span class="stat-divider"></span>
+
+                        <!-- Stat -->
+                        <div class="hero-stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Patient Satisfaction</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <!-- About Image -->
+                    <div class="col-lg-6 d-lg-block d-none">
+                        <div class="about-image-wrapper">
+
+                            <div class="about-image">
+                                <img src="assets/images/female-doctor-medical-office.jpg" alt="Dr. Sarah Ahmed at her clinic"/>
+                            </div>
+
+                            <!-- Experience Card -->
+                            <div class="about-experience-card">
+                                <span class="about-experience-number">10+</span>
+
+                                <div class="about-experience-content">
+                                    <span>Years of</span>
+                                    <span>Medical Experience</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- About Content -->
+                    <div class="col-lg-6">
+                        <div class="about-content">
+
+                            <!-- Section Label -->
+                            <span class="section-label">
+                                About Doctor
+                            </span>
+
+                            <!-- Heading -->
+                            <h2 class="about-title">
+                                Compassionate Care
+                                <span>Built Around You</span>
+                            </h2>
+
+                            <!-- Description -->
+                            <p class="about-description">
+                                Dr. Sarah Ahmed is a dedicated physician focused on
+                                providing personalized and evidence-based healthcare.
+                                Her approach combines careful diagnosis, preventive
+                                care, and clear communication to help every patient
+                                make informed decisions about their health.
+                            </p>
+
+                            <p class="about-description">
+                                With more than a decade of clinical experience, she
+                                believes that effective healthcare starts with listening
+                                to patients and understanding their individual needs.
+                            </p>
+
+
+                            <!-- Qualifications -->
+                            <div class="about-qualifications">
+
+                                <div class="qualification-item">
+                                    <div class="qualification-icon">
+                                        <iconify-icon
+                                            icon="solar:diploma-linear"
+                                            width="20"
+                                            height="20"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="qualification-content">
+                                        <span class="qualification-title">
+                                            MBBS
+                                        </span>
+
+                                        <span class="qualification-text">
+                                            Bachelor of Medicine &amp; Surgery
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                                <div class="qualification-item">
+                                    <div class="qualification-icon">
+                                        <iconify-icon
+                                            icon="solar:medical-kit-linear"
+                                            width="20"
+                                            height="20"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="qualification-content">
+                                        <span class="qualification-title">
+                                            FCPS
+                                        </span>
+
+                                        <span class="qualification-text">
+                                            Fellowship in Internal Medicine
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                                <div class="qualification-item">
+                                    <div class="qualification-icon">
+                                        <iconify-icon
+                                            icon="solar:verified-check-linear"
+                                            width="20"
+                                            height="20"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="qualification-content">
+                                        <span class="qualification-title">
+                                            10+ Years Experience
+                                        </span>
+
+                                        <span class="qualification-text">
+                                            Clinical &amp; Preventive Healthcare
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <!-- CTA -->
+                            <a href="#experience" class="about-btn">Explore Experience
+
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="18"
+                                    height="18"
+                                ></iconify-icon>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services-section" id="services">
+            <div class="container">
+
+                <!-- Section Header -->
+                <div class="section-heading text-center">
+
+                    <span class="section-label">
+                        Medical Services
+                    </span>
+
+                    <h2 class="section-title">
+                        Areas of Care &amp;
+                        <span>Medical Expertise</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Providing personalized care across a range of medical needs,
+                        with a focus on accurate diagnosis, prevention, and long-term health.
+                    </p>
+
+                </div>
+
+
+                <!-- Services Slider / Grid -->
+                <div class="row g-4 services-list">
+
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 service-item">
+                        <article class="service-card">
+                            <div class="service-icon">
+                                <iconify-icon
+                                    icon="solar:stethoscope-linear"
+                                    width="24"
+                                    height="24"
+                                ></iconify-icon>
+                            </div>
+
+                            <h3>Internal Medicine</h3>
+
+                            <p>
+                                Comprehensive diagnosis and treatment for a wide range
+                                of adult health conditions.
+                            </p>
+
+                            <a href="#appointment" class="service-link">
+                                Book Consultation
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="17"
+                                    height="17"
+                                ></iconify-icon>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 service-item">
+                        <article class="service-card">
+                            <div class="service-icon">
+                                <iconify-icon
+                                    icon="solar:heart-pulse-linear"
+                                    width="24"
+                                    height="24"
+                                ></iconify-icon>
+                            </div>
+
+                            <h3>Preventive Care</h3>
+
+                            <p>
+                                Personalized guidance and regular health assessments
+                                to support long-term well-being.
+                            </p>
+
+                            <a href="#appointment" class="service-link">
+                                Book Consultation
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="17"
+                                    height="17"
+                                ></iconify-icon>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 service-item">
+                        <article class="service-card">
+                            <div class="service-icon">
+                                <iconify-icon
+                                    icon="solar:health-linear"
+                                    width="24"
+                                    height="24"
+                                ></iconify-icon>
+                            </div>
+
+                            <h3>Diabetes Management</h3>
+
+                            <p>
+                                Ongoing support and treatment planning to help manage
+                                diabetes and related health concerns.
+                            </p>
+
+                            <a href="#appointment" class="service-link">
+                                Book Consultation
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="17"
+                                    height="17"
+                                ></iconify-icon>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 service-item">
+                        <article class="service-card">
+                            <div class="service-icon">
+                                <iconify-icon
+                                    icon="solar:pulse-2-linear"
+                                    width="24"
+                                    height="24"
+                                ></iconify-icon>
+                            </div>
+
+                            <h3>Hypertension Care</h3>
+
+                            <p>
+                                Monitoring, evaluation, and personalized care plans
+                                for better blood pressure management.
+                            </p>
+
+                            <a href="#appointment" class="service-link">
+                                Book Consultation
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="17"
+                                    height="17"
+                                ></iconify-icon>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 service-item">
+                        <article class="service-card">
+                            <div class="service-icon">
+                                <iconify-icon
+                                    icon="solar:clipboard-check-linear"
+                                    width="24"
+                                    height="24"
+                                ></iconify-icon>
+                            </div>
+
+                            <h3>Health Screening</h3>
+
+                            <p>
+                                Routine health evaluations designed to identify risks
+                                early and support preventive decisions.
+                            </p>
+
+                            <a href="#appointment" class="service-link">
+                                Book Consultation
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="17"
+                                    height="17"
+                                ></iconify-icon>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Service Card -->
+                    <div class="col-md-6 col-lg-4 service-item">
+                        <article class="service-card">
+                            <div class="service-icon">
+                                <iconify-icon
+                                    icon="solar:document-medicine-linear"
+                                    width="24"
+                                    height="24"
+                                ></iconify-icon>
+                            </div>
+
+                            <h3>Treatment Planning</h3>
+
+                            <p>
+                                Clear and individualized treatment plans based on each
+                                patient's condition and needs.
+                            </p>
+
+                            <a href="#appointment" class="service-link">
+                                Book Consultation
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="17"
+                                    height="17"
+                                ></iconify-icon>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERTISE SECTION -->
+        <section class="expertise-section" id="skills">
+            <div class="container">
+
+                <div class="row align-items-start g-5">
+
+                    <!-- Section Intro -->
+                    <div class="col-lg-5">
+                        <div class="expertise-intro">
+
+                            <span class="section-label">
+                                Areas of Expertise
+                            </span>
+
+                            <h2 class="expertise-title">
+                                Clinical Expertise
+                                <span>Backed By Experience</span>
+                            </h2>
+
+                            <p class="expertise-description">
+                                A patient-focused approach built on clinical experience,
+                                careful assessment, and a commitment to clear and
+                                personalized healthcare.
+                            </p>
+
+                            <a
+                                href="#appointment"
+                                class="expertise-btn"
+                            >
+                                Book a Consultation
+
+                                <iconify-icon
+                                    icon="solar:arrow-right-linear"
+                                    width="18"
+                                    height="18"
+                                ></iconify-icon>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Expertise List -->
+                    <div class="col-lg-7">
+                        <div class="expertise-list">
+
+                            <!-- Expertise Item -->
+                            <div class="expertise-item d-flex">
+
+                                <div class="expertise-icon">
+                                    <iconify-icon
+                                        icon="solar:stethoscope-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="expertise-content">
+                                    <h3>Clinical Diagnosis</h3>
+
+                                    <p>
+                                        Careful evaluation and assessment to understand
+                                        symptoms and identify underlying conditions.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Expertise Item -->
+                            <div class="expertise-item d-flex">
+
+                                <div class="expertise-icon">
+                                    <iconify-icon
+                                        icon="solar:heart-pulse-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="expertise-content">
+                                    <h3>Preventive Healthcare</h3>
+
+                                    <p>
+                                        Supporting healthier lifestyles through regular
+                                        checkups, screening, and preventive guidance.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Expertise Item -->
+                            <div class="expertise-item d-flex">
+
+                                <div class="expertise-icon">
+                                    <iconify-icon
+                                        icon="solar:health-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="expertise-content">
+                                    <h3>Chronic Disease Management</h3>
+
+                                    <p>
+                                        Long-term care plans designed around individual
+                                        conditions, progress, and health goals.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Expertise Item -->
+                            <div class="expertise-item d-flex">
+
+                                <div class="expertise-icon">
+                                    <iconify-icon
+                                        icon="solar:user-id-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="expertise-content">
+                                    <h3>Patient Consultation</h3>
+
+                                    <p>
+                                        Clear communication and thoughtful consultations
+                                        that help patients understand their care.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Expertise Item -->
+                            <div class="expertise-item d-flex">
+
+                                <div class="expertise-icon">
+                                    <iconify-icon
+                                        icon="solar:clipboard-heart-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="expertise-content">
+                                    <h3>Health Assessment</h3>
+
+                                    <p>
+                                        Comprehensive health reviews to identify risks
+                                        and support better informed decisions.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Expertise Item -->
+                            <div class="expertise-item d-flex">
+
+                                <div class="expertise-icon">
+                                    <iconify-icon
+                                        icon="solar:document-medicine-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="expertise-content">
+                                    <h3>Personalized Treatment Planning</h3>
+
+                                    <p>
+                                        Individualized treatment strategies based on
+                                        each patient's needs and clinical condition.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE & EDUCATION -->
+        <section class="journey-section" id="experience">
+            <div class="container">
+
+                <!-- Section Header -->
+                <div class="section-heading text-center">
+
+                    <span class="section-label">
+                        Professional Journey
+                    </span>
+
+                    <h2 class="section-title">
+                        Experience &amp;
+                        <span>Education</span>
+                    </h2>
+
+                    <p class="section-description">
+                        A professional journey shaped by years of clinical practice,
+                        medical training, and continuous learning.
+                    </p>
+
+                </div>
+
+
+                <!-- Journey Content -->
+                <div class="row g-5">
+
+                    <!-- Experience -->
+                    <div class="col-lg-7">
+                        <div class="journey-column">
+
+                            <div class="journey-column-header">
+                                <div class="journey-column-icon">
+                                    <iconify-icon
+                                        icon="solar:case-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div>
+                                    <span class="journey-column-label">
+                                        Career
+                                    </span>
+
+                                    <h3>Professional Experience</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="journey-timeline">
+
+                                <!-- Timeline Item -->
+                                <div class="timeline-item">
+
+                                    <div class="timeline-marker"></div>
+
+                                    <div class="timeline-content">
+
+                                        <span class="timeline-year">
+                                            2022 — Present
+                                        </span>
+
+                                        <h4>
+                                            Senior Consultant Physician
+                                        </h4>
+
+                                        <span class="timeline-place">
+                                            ABC Medical Center
+                                        </span>
+
+                                        <p>
+                                            Providing comprehensive consultation,
+                                            diagnosis, treatment planning, and
+                                            preventive healthcare for adult patients.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Timeline Item -->
+                                <div class="timeline-item">
+
+                                    <div class="timeline-marker"></div>
+
+                                    <div class="timeline-content">
+
+                                        <span class="timeline-year">
+                                            2018 — 2022
+                                        </span>
+
+                                        <h4>
+                                            Consultant Physician
+                                        </h4>
+
+                                        <span class="timeline-place">
+                                            XYZ General Hospital
+                                        </span>
+
+                                        <p>
+                                            Managed a broad range of medical conditions
+                                            while working closely with patients and
+                                            multidisciplinary healthcare teams.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Timeline Item -->
+                                <div class="timeline-item">
+
+                                    <div class="timeline-marker"></div>
+
+                                    <div class="timeline-content">
+
+                                        <span class="timeline-year">
+                                            2015 — 2018
+                                        </span>
+
+                                        <h4>
+                                            Resident Physician
+                                        </h4>
+
+                                        <span class="timeline-place">
+                                            City Medical Hospital
+                                        </span>
+
+                                        <p>
+                                            Developed clinical experience across
+                                            diagnosis, patient management, and
+                                            hospital-based medical care.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Education -->
+                    <div class="col-lg-5">
+                        <div class="journey-column">
+
+                            <div class="journey-column-header">
+                                <div class="journey-column-icon">
+                                    <iconify-icon
+                                        icon="solar:diploma-linear"
+                                        width="22"
+                                        height="22"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div>
+                                    <span class="journey-column-label">
+                                        Academic Background
+                                    </span>
+
+                                    <h3>Education</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="education-list">
+
+                                                                <!-- Education Item -->
+                                <div class="education-item">
+
+                                    <span class="education-year">
+                                        Running
+                                    </span>
+
+                                    <div class="education-content">
+
+                                        <h4>
+                                            Continuing Medical Education
+                                        </h4>
+
+                                        <span>
+                                            Ongoing Professional Development
+                                        </span>
+
+                                        <p>
+                                            Regular participation in medical training,
+                                            workshops, and professional learning.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- Education Item -->
+                                <div class="education-item">
+
+                                    <span class="education-year">
+                                        2014
+                                    </span>
+
+                                    <div class="education-content">
+
+                                        <h4>
+                                            FCPS — Internal Medicine
+                                        </h4>
+
+                                        <span>
+                                            Bangladesh College of Physicians &amp; Surgeons
+                                        </span>
+
+                                        <p>
+                                            Advanced postgraduate training in
+                                            internal medicine and clinical practice.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- Education Item -->
+                                <div class="education-item">
+
+                                    <span class="education-year">
+                                        2010
+                                    </span>
+
+                                    <div class="education-content">
+
+                                        <h4>
+                                            MBBS
+                                        </h4>
+
+                                        <span>
+                                            University Medical College
+                                        </span>
+
+                                        <p>
+                                            Undergraduate medical education with
+                                            comprehensive clinical training.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <section class="certifications-section" id="certifications">
+            <div class="container">
+
+                <!-- Section Header -->
+                <div class="section-heading text-center">
+
+                    <span class="section-label">
+                        Professional Credentials
+                    </span>
+
+                    <h2 class="section-title">
+                        Certifications &amp;
+                        <span>Medical Credentials</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Recognized qualifications and professional certifications
+                        supporting a continued commitment to quality healthcare.
+                    </p>
+
+                </div>
+
+
+                <!-- Certifications Grid -->
+                <div class="row g-4">
+
+                    <!-- Certification Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="certification-card">
+
+                            <div class="certification-top">
+                                <div class="certification-icon">
+                                    <iconify-icon
+                                        icon="solar:diploma-linear"
+                                        width="24"
+                                        height="24"
+                                    ></iconify-icon>
+                                </div>
+
+                                <span class="certification-year">
+                                    2014
+                                </span>
+                            </div>
+
+                            <div class="certification-content">
+                                <h3>FCPS — Internal Medicine</h3>
+
+                                <span class="certification-issuer">
+                                    Bangladesh College of Physicians &amp; Surgeons
+                                </span>
+
+                                <p>
+                                    Advanced postgraduate medical qualification
+                                    focused on internal medicine and clinical practice.
+                                </p>
+                            </div>
+
+                            <div class="certification-footer">
+                                <span class="certification-status">
+                                    <iconify-icon
+                                        icon="solar:verified-check-linear"
+                                        width="16"
+                                        height="16"
+                                    ></iconify-icon>
+
+                                    Verified Credential
+                                </span>
+
+                                <span class="certification-id">
+                                    ID: FCPS-2014
+                                </span>
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Certification Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="certification-card">
+
+                            <div class="certification-top">
+                                <div class="certification-icon">
+                                    <iconify-icon
+                                        icon="solar:medical-kit-linear"
+                                        width="24"
+                                        height="24"
+                                    ></iconify-icon>
+                                </div>
+
+                                <span class="certification-year">
+                                    2010
+                                </span>
+                            </div>
+
+                            <div class="certification-content">
+                                <h3>MBBS</h3>
+
+                                <span class="certification-issuer">
+                                    University Medical College
+                                </span>
+
+                                <p>
+                                    Bachelor of Medicine and Bachelor of Surgery
+                                    with comprehensive clinical training.
+                                </p>
+                            </div>
+
+                            <div class="certification-footer">
+                                <span class="certification-status">
+                                    <iconify-icon
+                                        icon="solar:verified-check-linear"
+                                        width="16"
+                                        height="16"
+                                    ></iconify-icon>
+
+                                    Medical Degree
+                                </span>
+
+                                <span class="certification-id">
+                                    ID: MBBS-2010
+                                </span>
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Certification Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="certification-card">
+
+                            <div class="certification-top">
+                                <div class="certification-icon">
+                                    <iconify-icon
+                                        icon="solar:heart-pulse-linear"
+                                        width="24"
+                                        height="24"
+                                    ></iconify-icon>
+                                </div>
+
+                                <span class="certification-year">
+                                    2022
+                                </span>
+                            </div>
+
+                            <div class="certification-content">
+                                <h3>Basic Life Support</h3>
+
+                                <span class="certification-issuer">
+                                    American Heart Association
+                                </span>
+
+                                <p>
+                                    Professional training in essential emergency
+                                    response and life-support techniques.
+                                </p>
+                            </div>
+
+                            <div class="certification-footer">
+                                <span class="certification-status">
+                                    <iconify-icon
+                                        icon="solar:verified-check-linear"
+                                        width="16"
+                                        height="16"
+                                    ></iconify-icon>
+
+                                    Certified
+                                </span>
+
+                                <span class="certification-id">
+                                    ID: BLS-2022
+                                </span>
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Certification Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="certification-card">
+
+                            <div class="certification-top">
+                                <div class="certification-icon">
+                                    <iconify-icon
+                                        icon="solar:shield-check-linear"
+                                        width="24"
+                                        height="24"
+                                    ></iconify-icon>
+                                </div>
+
+                                <span class="certification-year">
+                                    2022
+                                </span>
+                            </div>
+
+                            <div class="certification-content">
+                                <h3>Advanced Cardiac Life Support</h3>
+
+                                <span class="certification-issuer">
+                                    American Heart Association
+                                </span>
+
+                                <p>
+                                    Advanced training for managing cardiac emergencies
+                                    and critical patient situations.
+                                </p>
+                            </div>
+
+                            <div class="certification-footer">
+                                <span class="certification-status">
+                                    <iconify-icon
+                                        icon="solar:verified-check-linear"
+                                        width="16"
+                                        height="16"
+                                    ></iconify-icon>
+
+                                    Certified
+                                </span>
+
+                                <span class="certification-id">
+                                    ID: ACLS-2022
+                                </span>
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Certification Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="certification-card">
+
+                            <div class="certification-top">
+                                <div class="certification-icon">
+                                    <iconify-icon
+                                        icon="solar:document-text-linear"
+                                        width="24"
+                                        height="24"
+                                    ></iconify-icon>
+                                </div>
+
+                                <span class="certification-year">
+                                    2023
+                                </span>
+                            </div>
+
+                            <div class="certification-content">
+                                <h3>Diabetes Care &amp; Management</h3>
+
+                                <span class="certification-issuer">
+                                    Professional Medical Association
+                                </span>
+
+                                <p>
+                                    Continuing professional education in modern
+                                    approaches to diabetes care and management.
+                                </p>
+                            </div>
+
+                            <div class="certification-footer">
+                                <span class="certification-status">
+                                    <iconify-icon
+                                        icon="solar:verified-check-linear"
+                                        width="16"
+                                        height="16"
+                                    ></iconify-icon>
+
+                                    Certified
+                                </span>
+
+                                <span class="certification-id">
+                                    ID: DCM-2023
+                                </span>
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Certification Card -->
+                    <div class="col-md-6 col-lg-4">
+                        <article class="certification-card">
+
+                            <div class="certification-top">
+                                <div class="certification-icon">
+                                    <iconify-icon
+                                        icon="solar:book-2-linear"
+                                        width="24"
+                                        height="24"
+                                    ></iconify-icon>
+                                </div>
+
+                                <span class="certification-year">
+                                    2024
+                                </span>
+                            </div>
+
+                            <div class="certification-content">
+                                <h3>Preventive Healthcare</h3>
+
+                                <span class="certification-issuer">
+                                    Medical Continuing Education Program
+                                </span>
+
+                                <p>
+                                    Continued learning focused on preventive care,
+                                    health screening, and patient education.
+                                </p>
+                            </div>
+
+                            <div class="certification-footer">
+                                <span class="certification-status">
+                                    <iconify-icon
+                                        icon="solar:verified-check-linear"
+                                        width="16"
+                                        height="16"
+                                    ></iconify-icon>
+
+                                    Certified
+                                </span>
+
+                                <span class="certification-id">
+                                    ID: PHC-2024
+                                </span>
+                            </div>
+
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+
+                <!-- Section Header -->
+                <div class="section-heading text-center">
+
+                    <span class="section-label">
+                        Patient Stories
+                    </span>
+
+                    <h2 class="section-title">
+                        What My Patients
+                        <span>Say About Their Care</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Honest experiences from patients who have received
+                        personalized care and guidance.
+                    </p>
+
+                </div>
+
+
+                <!-- Testimonials List -->
+                <div class="row g-4 testimonials-list">
+
+                    <!-- Testimonial -->
+                    <div class="col-md-6 col-lg-4 testimonial-item d-lg-none">
+                        <article class="testimonial-card">
+
+                            <!-- Rating -->
+                            <div class="testimonial-rating">
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+                            </div>
+
+
+                            <!-- Quote -->
+                            <blockquote class="testimonial-quote">
+                                “Dr. Sarah took the time to listen to my concerns and
+                                explained everything in a way that was easy to understand.
+                                I felt comfortable throughout the consultation.”
+                            </blockquote>
+
+
+                            <!-- Patient -->
+                            <div class="testimonial-patient">
+
+                                <div class="patient-avatar">
+                                    SM
+                                </div>
+
+                                <div class="patient-info">
+                                    <h3>Sarah M.</h3>
+                                    <span>Patient</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Testimonial -->
+                    <div class="col-md-6 col-lg-4 testimonial-item d-lg-none">
+                        <article class="testimonial-card">
+
+                            <!-- Rating -->
+                            <div class="testimonial-rating">
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+                            </div>
+
+
+                            <!-- Quote -->
+                            <blockquote class="testimonial-quote">
+                                “The consultation was clear and thoughtful. I really
+                                appreciated how my treatment options were explained
+                                instead of feeling rushed through the appointment.”
+                            </blockquote>
+
+
+                            <!-- Patient -->
+                            <div class="testimonial-patient">
+
+                                <div class="patient-avatar">
+                                    AH
+                                </div>
+
+                                <div class="patient-info">
+                                    <h3>Ahmed H.</h3>
+                                    <span>Patient</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Testimonial -->
+                    <div class="col-md-6 col-lg-4 testimonial-item d-lg-none">
+                        <article class="testimonial-card">
+
+                            <!-- Rating -->
+                            <div class="testimonial-rating">
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+                            </div>
+
+
+                            <!-- Quote -->
+                            <blockquote class="testimonial-quote">
+                                “I was looking for a doctor who would actually listen.
+                                The whole experience felt professional, calm, and
+                                genuinely patient-focused.”
+                            </blockquote>
+
+
+                            <!-- Patient -->
+                            <div class="testimonial-patient">
+
+                                <div class="patient-avatar">
+                                    FN
+                                </div>
+
+                                <div class="patient-info">
+                                    <h3>Farhan N.</h3>
+                                    <span>Patient</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Testimonial -->
+                    <div class="col-md-6 col-lg-4 testimonial-item">
+                        <article class="testimonial-card">
+
+                            <!-- Rating -->
+                            <div class="testimonial-rating">
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+                            </div>
+
+
+                            <!-- Quote -->
+                            <blockquote class="testimonial-quote">
+                                “Everything was explained clearly and I never felt
+                                uncomfortable asking questions. The follow-up guidance
+                                was also very helpful.”
+                            </blockquote>
+
+
+                            <!-- Patient -->
+                            <div class="testimonial-patient">
+
+                                <div class="patient-avatar">
+                                    NR
+                                </div>
+
+                                <div class="patient-info">
+                                    <h3>Nadia R.</h3>
+                                    <span>Patient</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Testimonial -->
+                    <div class="col-md-6 col-lg-4 testimonial-item">
+                        <article class="testimonial-card">
+
+                            <!-- Rating -->
+                            <div class="testimonial-rating">
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+                            </div>
+
+
+                            <!-- Quote -->
+                            <blockquote class="testimonial-quote">
+                                “The appointment felt very organized and reassuring.
+                                I left with a much clearer understanding of what I
+                                needed to do next.”
+                            </blockquote>
+
+
+                            <!-- Patient -->
+                            <div class="testimonial-patient">
+
+                                <div class="patient-avatar">
+                                    RK
+                                </div>
+
+                                <div class="patient-info">
+                                    <h3>Rafi K.</h3>
+                                    <span>Patient</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+
+
+                    <!-- Testimonial -->
+                    <div class="col-md-6 col-lg-4 testimonial-item">
+                        <article class="testimonial-card">
+
+                            <!-- Rating -->
+                            <div class="testimonial-rating">
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+
+                                <iconify-icon
+                                    icon="solar:star-bold"
+                                    width="16"
+                                    height="16"
+                                ></iconify-icon>
+                            </div>
+
+
+                            <!-- Quote -->
+                            <blockquote class="testimonial-quote">
+                                “From the first consultation, I felt that my concerns
+                                were taken seriously. The communication was excellent
+                                and the care felt very personal.”
+                            </blockquote>
+
+
+                            <!-- Patient -->
+                            <div class="testimonial-patient">
+
+                                <div class="patient-avatar">
+                                    TA
+                                </div>
+
+                                <div class="patient-info">
+                                    <h3>Tania A.</h3>
+                                    <span>Patient</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+
+                </div>
+
+
+                <!-- Mobile Slider Indicator -->
+                <div class="testimonials-indicators d-flex d-sm-none justify-content-center align-items-center gap-2">
+
+                    <button
+                        class="testimonial-indicator active"
+                        type="button"
+                        aria-label="Go to testimonial 1"
+                        data-index="0"
+                    ></button>
+
+                    <button
+                        class="testimonial-indicator"
+                        type="button"
+                        aria-label="Go to testimonial 2"
+                        data-index="1"
+                    ></button>
+
+                    <button
+                        class="testimonial-indicator"
+                        type="button"
+                        aria-label="Go to testimonial 3"
+                        data-index="2"
+                    ></button>
+
+                    <button
+                        class="testimonial-indicator"
+                        type="button"
+                        aria-label="Go to testimonial 4"
+                        data-index="3"
+                    ></button>
+
+                    <button
+                        class="testimonial-indicator"
+                        type="button"
+                        aria-label="Go to testimonial 5"
+                        data-index="4"
+                    ></button>
+
+                    <button
+                        class="testimonial-indicator"
+                        type="button"
+                        aria-label="Go to testimonial 6"
+                        data-index="5"
+                    ></button>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- LOCATION SECTION -->
+        <section class="location-section" id="location">
+            <div class="container">
+
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- Location Information -->
+                    <div class="col-lg-5">
+                        <div class="location-content">
+
+                            <span class="section-label">
+                                Clinic Location
+                            </span>
+
+                            <h2 class="location-title">
+                                Visit the Clinic
+                                <span>for Your Consultation</span>
+                            </h2>
+
+                            <p class="location-description">
+                                Conveniently located for in-person consultations,
+                                routine checkups, and personalized medical care.
+                            </p>
+
+
+                            <!-- Address -->
+                            <div class="location-info-item">
+
+                                <div class="location-info-icon">
+                                    <iconify-icon
+                                        icon="solar:map-point-linear"
+                                        width="20"
+                                        height="20"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="location-info-content">
+                                    <span class="location-info-label">
+                                        Clinic Address
+                                    </span>
+
+                                    <h3>
+                                        ABC Medical Center
+                                    </h3>
+
+                                    <p>
+                                        123 Medical Road,<br>
+                                        Chattogram, Bangladesh
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Phone -->
+                            <div class="location-info-item">
+
+                                <div class="location-info-icon">
+                                    <iconify-icon
+                                        icon="solar:phone-linear"
+                                        width="20"
+                                        height="20"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="location-info-content">
+                                    <span class="location-info-label">
+                                        Contact
+                                    </span>
+
+                                    <a href="tel:+8801XXXXXXXXX">
+                                        +880 1XXXXXXXXX
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                            <!-- Opening Hours -->
+                            <div class="location-info-item">
+
+                                <div class="location-info-icon">
+                                    <iconify-icon
+                                        icon="solar:clock-circle-linear"
+                                        width="20"
+                                        height="20"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div class="location-info-content">
+                                    <span class="location-info-label">
+                                        Consultation Hours
+                                    </span>
+
+                                    <div class="location-hours">
+
+                                        <div class="location-hour-row">
+                                            <span>Sun — Thu</span>
+                                            <strong>5:00 PM — 9:00 PM</strong>
+                                        </div>
+
+                                        <div class="location-hour-row">
+                                            <span>Friday</span>
+                                            <strong>Closed</strong>
+                                        </div>
+
+                                        <div class="location-hour-row">
+                                            <span>Saturday</span>
+                                            <strong>10:00 AM — 2:00 PM</strong>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <!-- CTA -->
+                            <a
+                                href="https://maps.google.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="location-btn"
+                            >
+                                <span>Get Directions</span>
+
+                                <iconify-icon
+                                    icon="solar:map-arrow-right-linear"
+                                    width="18"
+                                    height="18"
+                                ></iconify-icon>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Map -->
+                    <div class="col-lg-7">
+                        <div class="location-map-wrapper">
+
+                            <iframe
+                                src="https://www.google.com/maps?q=Chattogram,Bangladesh&output=embed"
+                                title="Clinic location map"
+                                loading="lazy"
+                                allowfullscreen
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+
+                            <!-- Map Label -->
+                            <div class="map-location-card">
+
+                                <div class="map-location-icon">
+                                    <iconify-icon
+                                        icon="solar:map-point-linear"
+                                        width="18"
+                                        height="18"
+                                    ></iconify-icon>
+                                </div>
+
+                                <div>
+                                    <strong>ABC Medical Center</strong>
+                                    <span>Chattogram, Bangladesh</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- APPOINTMENT SECTION -->
+        <section class="appointment-section" id="appointment">
+            <div class="container">
+
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- Appointment Intro -->
+                    <div class="col-lg-5">
+                        <div class="appointment-intro">
+
+                            <span class="section-label">
+                                Book an Appointment
+                            </span>
+
+                            <h2 class="appointment-title">
+                                Take the Next Step
+                                <span>Toward Better Health</span>
+                            </h2>
+
+                            <p class="appointment-description">
+                                Schedule a consultation with Dr. Sarah Ahmed at a time
+                                that works best for you. Fill out the form and the clinic
+                                team will get back to you to confirm your appointment.
+                            </p>
+
+
+                            <!-- Appointment Info -->
+                            <div class="appointment-info-list">
+
+                                <!-- Info Item -->
+                                <div class="appointment-info-item">
+
+                                    <div class="appointment-info-icon">
+                                        <iconify-icon
+                                            icon="solar:calendar-linear"
+                                            width="20"
+                                            height="20"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="appointment-info-content">
+                                        <span>Consultation Hours</span>
+                                        <strong>Sun — Thu, 5:00 PM — 9:00 PM</strong>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Info Item -->
+                                <div class="appointment-info-item">
+
+                                    <div class="appointment-info-icon">
+                                        <iconify-icon
+                                            icon="solar:clock-circle-linear"
+                                            width="20"
+                                            height="20"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="appointment-info-content">
+                                        <span>Appointment Duration</span>
+                                        <strong>30 — 45 Minutes</strong>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Info Item -->
+                                <div class="appointment-info-item">
+
+                                    <div class="appointment-info-icon">
+                                        <iconify-icon
+                                            icon="solar:phone-linear"
+                                            width="20"
+                                            height="20"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="appointment-info-content">
+                                        <span>Need Help?</span>
+                                        <strong>+880 1XXXXXXXXX</strong>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Appointment Form -->
+                    <div class="col-lg-7">
+                        <div class="appointment-form-wrapper">
+
+                            <div class="appointment-form-header">
+                                <h3>Request an Appointment</h3>
+
+                                <p>
+                                    Please provide your details and preferred
+                                    consultation time.
+                                </p>
+                            </div>
+
+
+                            <form id="appointment-form">
+
+                                <div class="row g-3">
+
+                                    <!-- Full Name -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="full-name">
+                                                Full Name
+                                            </label>
+
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="full-name"
+                                                name="full_name"
+                                                placeholder="Enter your name"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Phone -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="phone">
+                                                Phone Number
+                                            </label>
+
+                                            <input
+                                                type="tel"
+                                                class="form-control"
+                                                id="phone"
+                                                name="phone"
+                                                placeholder="Enter phone number"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Email -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="email">
+                                                Email Address
+                                            </label>
+
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                name="email"
+                                                placeholder="Enter your email"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Service -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="service">
+                                                Select Service
+                                            </label>
+
+                                            <select
+                                                class="form-select"
+                                                id="service"
+                                                name="service"
+                                            >
+                                                <option value="" selected disabled>
+                                                    Choose a service
+                                                </option>
+
+                                                <option value="internal-medicine">
+                                                    Internal Medicine
+                                                </option>
+
+                                                <option value="preventive-care">
+                                                    Preventive Care
+                                                </option>
+
+                                                <option value="diabetes-management">
+                                                    Diabetes Management
+                                                </option>
+
+                                                <option value="hypertension-care">
+                                                    Hypertension Care
+                                                </option>
+
+                                                <option value="health-screening">
+                                                    Health Screening
+                                                </option>
+
+                                                <option value="treatment-planning">
+                                                    Treatment Planning
+                                                </option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Date -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="appointment-date">
+                                                Preferred Date
+                                            </label>
+
+                                            <input
+                                                type="date"
+                                                class="form-control"
+                                                id="appointment-date"
+                                                name="appointment_date"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Time -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="appointment-time">
+                                                Preferred Time
+                                            </label>
+
+                                            <select
+                                                class="form-select"
+                                                id="appointment-time"
+                                                name="appointment_time"
+                                            >
+                                                <option value="" selected disabled>
+                                                    Choose a time
+                                                </option>
+
+                                                <option value="5:00-pm">
+                                                    5:00 PM
+                                                </option>
+
+                                                <option value="5:30-pm">
+                                                    5:30 PM
+                                                </option>
+
+                                                <option value="6:00-pm">
+                                                    6:00 PM
+                                                </option>
+
+                                                <option value="6:30-pm">
+                                                    6:30 PM
+                                                </option>
+
+                                                <option value="7:00-pm">
+                                                    7:00 PM
+                                                </option>
+
+                                                <option value="7:30-pm">
+                                                    7:30 PM
+                                                </option>
+
+                                                <option value="8:00-pm">
+                                                    8:00 PM
+                                                </option>
+
+                                                <option value="8:30-pm">
+                                                    8:30 PM
+                                                </option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Message -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+
+                                            <label for="message">
+                                                Message
+                                                <span>(Optional)</span>
+                                            </label>
+
+                                            <textarea
+                                                class="form-control"
+                                                id="message"
+                                                name="message"
+                                                rows="5"
+                                                placeholder="Tell us briefly about your concern"
+                                            ></textarea>
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Submit -->
+                                    <div class="col-12">
+                                        <button
+                                            type="submit"
+                                            class="appointment-submit-btn"
+                                        >
+                                            <span>Request Appointment</span>
+
+                                            <iconify-icon
+                                                icon="solar:arrow-right-linear"
+                                                width="18"
+                                                height="18"
+                                            ></iconify-icon>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                            <!-- Form Note -->
+                            <p class="appointment-note">
+                                By submitting this form, you are requesting an
+                                appointment. The clinic will contact you to confirm
+                                availability.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+
+                <div class="row g-5 align-items-start">
+
+                    <!-- FAQ Intro -->
+                    <div class="col-lg-5">
+                        <div class="faq-intro">
+
+                            <span class="section-label">
+                                Frequently Asked Questions
+                            </span>
+
+                            <h2 class="faq-title">
+                                Have Questions?
+                                <span>We’re Here to Help</span>
+                            </h2>
+
+                            <p class="faq-description">
+                                Find answers to some of the most common questions
+                                about appointments, consultations, clinic hours,
+                                and follow-up care.
+                            </p>
+
+                            <a
+                                href="#contact"
+                                class="faq-contact-link"
+                            >
+                                Still have a question?
+
+                                <span>
+                                    Contact Us
+
+                                    <iconify-icon
+                                        icon="solar:arrow-right-linear"
+                                        width="17"
+                                        height="17"
+                                    ></iconify-icon>
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                    <!-- FAQ Accordion -->
+                    <div class="col-lg-7">
+                        <div class="faq-accordion">
+
+                            <div
+                                class="accordion"
+                                id="faqAccordion"
+                            >
+
+                                <!-- FAQ Item -->
+                                <div class="accordion-item">
+
+                                    <h3 class="accordion-header">
+                                        <button
+                                            class="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqOne"
+                                            aria-expanded="true"
+                                            aria-controls="faqOne"
+                                        >
+                                            How can I book an appointment?
+                                        </button>
+                                    </h3>
+
+                                    <div
+                                        id="faqOne"
+                                        class="accordion-collapse collapse show"
+                                        data-bs-parent="#faqAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            You can request an appointment by
+                                            completing the booking form on this
+                                            website. The clinic team will contact
+                                            you to confirm the available date and time.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- FAQ Item -->
+                                <div class="accordion-item">
+
+                                    <h3 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqTwo"
+                                            aria-expanded="false"
+                                            aria-controls="faqTwo"
+                                        >
+                                            What should I bring to my consultation?
+                                        </button>
+                                    </h3>
+
+                                    <div
+                                        id="faqTwo"
+                                        class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Please bring any relevant medical reports,
+                                            previous prescriptions, test results, and
+                                            a list of medications you are currently taking.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- FAQ Item -->
+                                <div class="accordion-item">
+
+                                    <h3 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqThree"
+                                            aria-expanded="false"
+                                            aria-controls="faqThree"
+                                        >
+                                            What are the consultation hours?
+                                        </button>
+                                    </h3>
+
+                                    <div
+                                        id="faqThree"
+                                        class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Regular consultations are available from
+                                            Sunday to Thursday between 5:00 PM and
+                                            9:00 PM. Saturday consultations are available
+                                            from 10:00 AM to 2:00 PM.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- FAQ Item -->
+                                <div class="accordion-item">
+
+                                    <h3 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqFour"
+                                            aria-expanded="false"
+                                            aria-controls="faqFour"
+                                        >
+                                            Can I reschedule my appointment?
+                                        </button>
+                                    </h3>
+
+                                    <div
+                                        id="faqFour"
+                                        class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Yes. Please contact the clinic as early
+                                            as possible if you need to change your
+                                            appointment date or time.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- FAQ Item -->
+                                <div class="accordion-item">
+
+                                    <h3 class="accordion-header">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#faqFive"
+                                            aria-expanded="false"
+                                            aria-controls="faqFive"
+                                        >
+                                            Do you offer follow-up consultations?
+                                        </button>
+                                    </h3>
+
+                                    <div
+                                        id="faqFive"
+                                        class="accordion-collapse collapse"
+                                        data-bs-parent="#faqAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Follow-up consultations can be arranged
+                                            based on your treatment plan and individual
+                                            healthcare needs.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- Contact Intro -->
+                    <div class="col-lg-5">
+                        <div class="contact-intro">
+
+                            <span class="section-label">
+                                Get In Touch
+                            </span>
+
+                            <h2 class="contact-title">
+                                Let's Talk About
+                                <span>Your Healthcare Needs</span>
+                            </h2>
+
+                            <p class="contact-description">
+                                Have a question about consultations, clinic hours,
+                                or appointments? Reach out to the clinic team using
+                                any of the contact options below.
+                            </p>
+
+
+                            <!-- Contact Information -->
+                            <div class="contact-info-list">
+
+                                <!-- Phone -->
+                                <div class="contact-info-item">
+
+                                    <div class="contact-info-icon">
+                                        <iconify-icon
+                                            icon="solar:phone-linear"
+                                            width="22"
+                                            height="22"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="contact-info-content">
+                                        <span>Phone</span>
+
+                                        <a href="tel:+8801XXXXXXXXX">
+                                            +880 1XXXXXXXXX
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Email -->
+                                <div class="contact-info-item">
+
+                                    <div class="contact-info-icon">
+                                        <iconify-icon
+                                            icon="solar:letter-linear"
+                                            width="22"
+                                            height="22"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="contact-info-content">
+                                        <span>Email</span>
+
+                                        <a href="mailto:doctor@example.com">
+                                            doctor@example.com
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Address -->
+                                <div class="contact-info-item">
+
+                                    <div class="contact-info-icon">
+                                        <iconify-icon
+                                            icon="solar:map-point-linear"
+                                            width="22"
+                                            height="22"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="contact-info-content">
+                                        <span>Clinic</span>
+
+                                        <p>
+                                            ABC Medical Center<br>
+                                            123 Medical Road,<br>
+                                            Chattogram, Bangladesh
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Hours -->
+                                <div class="contact-info-item">
+
+                                    <div class="contact-info-icon">
+                                        <iconify-icon
+                                            icon="solar:clock-circle-linear"
+                                            width="22"
+                                            height="22"
+                                        ></iconify-icon>
+                                    </div>
+
+                                    <div class="contact-info-content">
+                                        <span>Consultation Hours</span>
+
+                                        <p>
+                                            Sun — Thu: 5:00 PM — 9:00 PM<br>
+                                            Saturday: 10:00 AM — 2:00 PM
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Social Links -->
+                            <div class="contact-social">
+
+                                <span>Follow</span>
+
+                                <div class="social-links">
+
+                                    <a
+                                        href="#"
+                                        aria-label="Facebook"
+                                    >
+                                        <iconify-icon
+                                            icon="ri:facebook-fill"
+                                            width="19"
+                                            height="19"
+                                        ></iconify-icon>
+                                    </a>
+
+                                    <a
+                                        href="#"
+                                        aria-label="LinkedIn"
+                                    >
+                                        <iconify-icon
+                                            icon="ri:linkedin-fill"
+                                            width="19"
+                                            height="19"
+                                        ></iconify-icon>
+                                    </a>
+
+                                    <a
+                                        href="#"
+                                        aria-label="Instagram"
+                                    >
+                                        <iconify-icon
+                                            icon="ri:instagram-line"
+                                            width="19"
+                                            height="19"
+                                        ></iconify-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Contact Form -->
+                    <div class="col-lg-7">
+                        <div class="contact-form-wrapper">
+
+                            <div class="contact-form-header">
+                                <h3>Send Us a Message</h3>
+
+                                <p>
+                                    Fill out the form and the clinic team will
+                                    get back to you shortly.
+                                </p>
+                            </div>
+
+
+                            <form id="contact-form">
+
+                                <div class="row g-3">
+
+                                    <!-- Name -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="contact-name">
+                                                Full Name
+                                            </label>
+
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="contact-name"
+                                                name="contact_name"
+                                                placeholder="Enter your name"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Email -->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <label for="contact-email">
+                                                Email Address
+                                            </label>
+
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="contact-email"
+                                                name="contact_email"
+                                                placeholder="Enter your email"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Subject -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+
+                                            <label for="contact-subject">
+                                                Subject
+                                            </label>
+
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="contact-subject"
+                                                name="contact_subject"
+                                                placeholder="What is your message about?"
+                                            />
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Message -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+
+                                            <label for="contact-message">
+                                                Message
+                                            </label>
+
+                                            <textarea
+                                                class="form-control"
+                                                id="contact-message"
+                                                name="contact_message"
+                                                rows="6"
+                                                placeholder="Write your message here..."
+                                            ></textarea>
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Submit -->
+                                    <div class="col-12">
+
+                                        <button
+                                            type="submit"
+                                            class="contact-submit-btn"
+                                        >
+                                            <span>Send Message</span>
+
+                                            <iconify-icon
+                                                icon="solar:arrow-right-linear"
+                                                width="19"
+                                                height="19"
+                                            ></iconify-icon>
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                <!-- Brand / About -->
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+
+                        <a href="./index.html" class="footer-logo">
+
+                            <span class="footer-logo-content">
+                                <span class="footer-doctor-name">
+                                    Dr. Sarah Ahmed
+                                </span>
+
+                                <span class="footer-doctor-role">
+                                    Physician
+                                </span>
+                            </span>
+                        </a>
+
+
+                        <p class="footer-description">
+                            Providing personalized, evidence-based healthcare
+                            with a focus on careful diagnosis, preventive care,
+                            and long-term patient well-being.
+                        </p>
+
+
+                        <!-- Social Links -->
+                        <div class="footer-social-links">
+
+                            <a
+                                href="#"
+                                aria-label="Facebook"
+                            >
+                                <iconify-icon
+                                    icon="ri:facebook-fill"
+                                    width="18"
+                                    height="18"
+                                ></iconify-icon>
+                            </a>
+
+                            <a
+                                href="#"
+                                aria-label="LinkedIn"
+                            >
+                                <iconify-icon
+                                    icon="ri:linkedin-fill"
+                                    width="18"
+                                    height="18"
+                                ></iconify-icon>
+                            </a>
+
+                            <a
+                                href="#"
+                                aria-label="Instagram"
+                            >
+                                <iconify-icon
+                                    icon="ri:instagram-line"
+                                    width="18"
+                                    height="18"
+                                ></iconify-icon>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="col-6 col-lg-2">
+                    <div class="footer-column">
+
+                        <h3>Quick Links</h3>
+
+                        <ul>
+                            <li>
+                                <a href="#hero">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+
+                            <li>
+                                <a href="#experience">Experience</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <!-- Services -->
+                <div class="col-6 col-lg-3">
+                    <div class="footer-column">
+
+                        <h3>Services</h3>
+
+                        <ul>
+                            <li>
+                                <a href="#services">
+                                    Internal Medicine
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#services">
+                                    Preventive Care
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#services">
+                                    Diabetes Management
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#services">
+                                    Hypertension Care
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#services">
+                                    Health Screening
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <!-- Contact -->
+                <div class="col-lg-3">
+                    <div class="footer-column footer-contact">
+
+                        <h3>Contact</h3>
+
+                        <!-- Phone -->
+                        <a
+                            href="tel:+8801XXXXXXXXX"
+                            class="footer-contact-item"
+                        >
+                            <iconify-icon
+                                icon="solar:phone-linear"
+                                width="18"
+                                height="18"
+                            ></iconify-icon>
+
+                            <span>+880 1XXXXXXXXX</span>
+                        </a>
+
+
+                        <!-- Email -->
+                        <a
+                            href="mailto:doctor@example.com"
+                            class="footer-contact-item"
+                        >
+                            <iconify-icon
+                                icon="solar:letter-linear"
+                                width="18"
+                                height="18"
+                            ></iconify-icon>
+
+                            <span>doctor@example.com</span>
+                        </a>
+
+
+                        <!-- Location -->
+                        <div class="footer-contact-item">
+                            <iconify-icon
+                                icon="solar:map-point-linear"
+                                width="18"
+                                height="18"
+                            ></iconify-icon>
+
+                            <span>
+                                ABC Medical Center,<br>
+                                Chattogram, Bangladesh
+                            </span>
+                        </div>
+
+
+                        <!-- Appointment -->
+                        <a
+                            href="#appointment"
+                            class="footer-appointment-btn"
+                        >
+                            Book Appointment
+
+                            <iconify-icon
+                                icon="solar:arrow-right-linear"
+                                width="17"
+                                height="17"
+                            ></iconify-icon>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Dr. Sarah Ahmed. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Main JS -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</body>
+</html>
